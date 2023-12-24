@@ -4,7 +4,10 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  /* color: #272829; */
+  color: #b8c1ec;
+  background: #232946;;
+  /* background-color: #232946; */
 }
 
 a {
@@ -268,7 +271,7 @@ h6 {
   width: 100%;
   height: 100vh;
   /* background: url("../img/bg-1.jpg") top right no-repeat; */
-  background-color: #0c1726;
+  background-color: #232946;
   background-size: cover;
   position: relative;
 }
@@ -298,7 +301,7 @@ h6 {
 }
 
 #hero p {
-  color: #ffffff;
+  color: #fffffe;
   /* color: #45505b; */
   margin: 15px 0 0 0;
   font-size: 26px;
@@ -306,7 +309,7 @@ h6 {
 }
 
 #hero p span {
-  color: #0563bb;
+  color: #eebbc3;
   letter-spacing: 1px;
 }
 
@@ -317,14 +320,14 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #0563bb;  
+  color: #eebbc3;  
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
 }
 
 #hero .social-links a:hover {
-  color: #45505b;
+  color: #b8c1ec;
 }
 
 @media (max-width: 992px) {
@@ -350,6 +353,7 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  background: #232946;
 }
 
 .section-title {
@@ -364,7 +368,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #fffffe;
 }
 
 .section-title h2::before {
@@ -399,18 +403,20 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #728394;
+  color: #eebbc3;
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
+  color: #b8c1ec;
 }
 
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  color: #b8c1ec
 }
 
 .about .content ul strong {
@@ -428,6 +434,9 @@ section {
   margin-bottom: 0;
 }
 
+#chevron {
+  color : #ffffff;
+}
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -1147,7 +1156,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   /* background: #f7f8f9; */
-  background-color: #0c1726;
+  background-color: #232946;
   color: #ffffff;
   font-size: 14px;
   text-align: center;
